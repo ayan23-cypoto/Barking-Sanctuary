@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DynaPuff:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            font-family: 'Anton';
+        }
+
+        #img1{
+            position: absolute;
+            width: 1300px;
+            height: 699px;
+            z-index: -1;
+        }
+
+        #text1{
+            position: absolute;
+            font-family: 'DynaPuff', cursive;
+            color: #5E81AC;
+            font-size: 100px;
+            left: 15%;
+        }
+
+        #paralax{
+            width: 1300px;
+            height: 699px;
+            background-color: #4C566A;
+            position: absolute;
+            top: 50%;
+            z-index: -2;
+        }
+
+        #PlayBtn{
+            position: absolute;
+            top: 70%;
+            left: 40%;
+            width: 250px;
+            height: 70px;
+            background-color: #5E81AC;
+            border: none;
+            font-size: x-large;
+        }
+
+        #PlayBtn:hover{
+            position: absolute;
+            top: 70%;
+            left: 40%;
+            width: 250px;
+            height: 70px;
+            background-color: #ffff;
+            border: none;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="new_PFP.png" id="img1">
+        <h1 id="text1">Barking Sanctuary</h1>
+    </header>
+
+    <footer>
+        <div id="paralax">
+            <button id="PlayBtn" onclick="location.href='../Index.html'">Play Now!</button>
+        </div>
+    </footer>
+   <script src="Script.js"></script> 
+</body>
+</html>
